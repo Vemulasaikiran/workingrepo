@@ -1313,6 +1313,8 @@ footer {
   margin: 0 auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
+        border-radius: 20px;
+        border-color: #292f35;
   
 }
 
