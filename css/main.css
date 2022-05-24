@@ -1289,3 +1289,35 @@ footer {
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+.center {
+
+  text-align: center;
+  }
+  .underline{
+     margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #eb8621;
+  margin-top: 15px;
+}
+  
+
+.card {
+  
+  transition: 0.3s;
+  width: 40%;
+  margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
