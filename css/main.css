@@ -115,7 +115,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eb8621;
+  color: #333;
   position: relative;
 }
 
@@ -125,7 +125,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .section-subtitle {
   margin-top: 15px;
-  color: #fff;
+  color: #333;
   font-size: 14px;
   font-weight: 400;
 }
@@ -652,8 +652,6 @@ button:focus {
 
 #services .section-title {
   color: #fff;
-  font: 20px;
-  text-align: center;
 }
 
 #services .section-subtitle {
@@ -1471,10 +1469,10 @@ cursor: pointer;
 .want_to_join h5{
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
+  color: #A4A4A4;
   font-weight: 400;
   width: 130px;
-  background: #FE6845;
+  background: #E3E6FF;
   border-radius: 5px;
   padding: 8px;
   text-align: center;
