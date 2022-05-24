@@ -1305,26 +1305,6 @@ footer {
   margin-top: 15px;
 }
   
-
-.card {
-  
-  transition: 0.3s;
-  width: 30%;
-  margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        border-radius: 20px;
-        border-color: #292f35;
-  
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-}
 .why-join_us{
   padding: 70px 0;
   position: relative;
@@ -1497,3 +1477,26 @@ cursor: pointer;
 }
 
 
+.center
+{
+  align-self: center;
+  
+}
+.card{
+  
+ 
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  align-self: center;
+  border-radius: 1%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+
+}
