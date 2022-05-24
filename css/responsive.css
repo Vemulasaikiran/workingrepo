@@ -111,5 +111,16 @@
     font-size: 35px;
     line-height: 45px;
   }
+  .who_we_are h2,.our_story h2,.contact_us h2,.why-join_us_in h2,.want_to_join h2{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .who_we_are p,.who_we_are_card h5,.our_story p,.testimonial_card p,.want_to_join h6,.software_careers p{
+    font-size: 15px;
+  }
+  .want_to_join h3{
+    padding: 40px 0 0;
+    font-size: 15px;
+  }
   
 }
