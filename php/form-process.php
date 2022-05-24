@@ -17,10 +17,10 @@ if (empty($_POST["email"])) {
 }
 
 // MSG SUBJECT
-if (empty($_POST["msg_subject"])) {
+if (empty($_POST["subject"])) {
     $errorMSG .= "Subject is required ";
 } else {
-    $msg_subject = $_POST["msg_subject"];
+    $subject = $_POST["subject"];
 }
 
 
@@ -32,7 +32,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "armanmia7@gmail.com";
+$EmailTo = "saikiran.vemula@cjsstechnologies.com";
 $Subject = "New Message Received";
 
 // prepare email body text
@@ -44,7 +44,7 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 $Body .= "Subject: ";
-$Body .= $msg_subject;
+$Body .= $subject;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
@@ -63,5 +63,9 @@ if ($success && $errorMSG == ""){
         echo $errorMSG;
     }
 }
+return $response
+        ->withHeader('Access-Control-Allow-Origin', '*')
+        ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+        ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
 
 ?>
