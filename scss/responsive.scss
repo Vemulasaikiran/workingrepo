@@ -17,7 +17,7 @@
     .item-boxes h4{
         font-size: 18px;
     }
-    #features .show-box img{
+    #services .show-box img{
         display: none;
     }
     .pricing-table .pricing-details ul li{
@@ -54,12 +54,28 @@
         font-size: 18px;
         line-height: 30px;
     }
-    #features .show-box img{
+    #services .show-box img{
         display: none;
     }
-    #features .box-item .text h4{
+    #services .box-item .text h4{
         font-size: 14px;
     }
+    .testimonial_card{
+        width: 100%;
+        
+      }
+      .testimonial_card p{
+        font-size: 15px;
+      }
+      .testimonial_card{
+        padding: 118px 20px 30px 20px;
+      }
+
+
+      .ellipse_card{
+        width: 100%;
+        
+      }
     .controls{
         margin: 0px;
         .btn{

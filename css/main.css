@@ -19,7 +19,7 @@
   3. HERO AREA 
   4. NAVBAR
   5. SERVICES SECTION
-  6. FEATURES SECTION
+  6. SERVICES SECTION
   7. VIDEO PROMO SECTION
   8. PORTFOLIO SECTION
   9. PRICING TABLE 
@@ -640,9 +640,9 @@ button:focus {
 }
 
 /* ==========================================================================
-  6. Features Section Style
+  6. Services Section Style
    ========================================================================== */
-#features {
+#services {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -650,15 +650,15 @@ button:focus {
   position: relative;
 }
 
-#features .section-title {
+#services .section-title {
   color: #fff;
 }
 
-#features .section-subtitle {
+#services .section-subtitle {
   color: #fff;
 }
 
-#features .icon {
+#services .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -668,11 +668,11 @@ button:focus {
   z-index: 1;
 }
 
-#features .box-item {
+#services .box-item {
   padding: 15px 0;
 }
 
-#features .box-item .icon {
+#services .box-item .icon {
   border: 1px solid #eb8621;
   text-align: center;
   float: left;
@@ -682,7 +682,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#services .box-item .icon i {
   color: #eb8621;
   font-size: 24px;
   line-height: 60px;
@@ -692,11 +692,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text {
+#services .box-item .text {
   padding-left: 80px;
 }
 
-#features .box-item .text h4 {
+#services .box-item .text h4 {
   color: #eb8621;
   font-weight: 700;
   font-size: 16px;
@@ -704,20 +704,20 @@ button:focus {
   line-height: 22px;
 }
 
-#features .box-item .text p {
+#services .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover .icon {
+#services .box-item:hover .icon {
   background: #eb8621;
 }
 
-#features .box-item:hover .icon i {
+#services .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features .show-box img {
+#services .show-box img {
   position: absolute;
   bottom: -120px;
 }
@@ -1019,6 +1019,7 @@ button:focus {
    ========================================================================== */
 .single-team:hover .team-details {
   opacity: 1;
+  
 }
 
 .single-team {
@@ -1029,6 +1030,7 @@ button:focus {
   border-radius: 0px;
   background:#eb8621;
   overflow: hidden;
+  
 }
 
 .single-team img {
