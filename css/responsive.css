@@ -30,6 +30,25 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .why-join_us {
+    padding: 30px 0 70px;
+  }
+  .join_us_card p br{
+    display: none;
+  }
+  .join_us_card {
+    width: 100%;
+    padding: 10px;
+  }
+  .join_yellow_left {
+    bottom: 120px;
+  }
+  .want_to_join{
+    padding: 0;
+  }
+  .want_to_join h6{
+    width: 100%;
+  }
 }
 
 /* mobile or only mobile */
@@ -81,4 +100,16 @@
   .copyright {
     float: left;
   }
+  .why-join_us {
+    padding: 0px 0 70px;
+  }
+  .join_us_card:hover{
+    transform: scale(1);
+    box-shadow: none;
+  }
+ .why-join_us_in h2,.want_to_join h2{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  
 }
