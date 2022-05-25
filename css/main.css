@@ -1479,11 +1479,13 @@ cursor: pointer;
 }
 
 
-
 img.displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #555;
 
+
  }
+
+
