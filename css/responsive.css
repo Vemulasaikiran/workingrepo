@@ -30,25 +30,33 @@
     font-size: 14px;
     line-height: 20px;
   }
-  .why-join_us {
-    padding: 30px 0 70px;
+  .set > h4{
+    font-size: 14px;
   }
-  .join_us_card p br{
-    display: none;
+  .set > h4 p{
+    font-size: 10px;
   }
-  .join_us_card {
-    width: 100%;
+  .set > h4{
+    padding: 15px;
+  }
+  .set > h4 p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .set > h4 p i {
+    margin-left: 8px;
+  }
+  .set > h4 {
     padding: 10px;
+    font-size: 12px;
   }
-  .join_yellow_left {
-    bottom: 120px;
-  }
-  .want_to_join{
-    padding: 0;
-  }
-  .want_to_join h6{
-    width: 100%;
-  }
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #555;
+    border-radius: 4%;
+   }
 }
 
 /* mobile or only mobile */
@@ -100,37 +108,12 @@
   .copyright {
     float: left;
   }
-  .why-join_us {
-    padding: 0px 0 70px;
-  }
-  .join_us_card:hover{
-    transform: scale(1);
-    box-shadow: none;
-  }
- .why-join_us_in h2,.want_to_join h2{
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .who_we_are h2,.why-join_us_in h2,.want_to_join h2{
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .who_we_are p,.who_we_are_card h5,.want_to_join h6{
-    font-size: 15px;
-  }
-  .want_to_join h3{
-    padding: 40px 0 0;
-    font-size: 15px;
-  }
-  
-
   .set > h4{
     font-size: 14px;
   }
   .set > h4 p{
     font-size: 10px;
   }
-
   .set > h4{
     padding: 15px;
   }
@@ -145,5 +128,27 @@
     padding: 10px;
     font-size: 12px;
   }
-  
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #555;
+    border-radius: 4%;
+   }
 }
+.why-join_us {
+  padding: 30px 0 70px;
+}
+.why-join_us {
+  padding: 0px 0 70px;
+}
+.why-join_us_in h2,.want_to_join h2{
+  font-size: 35px;
+  line-height: 45px;
+}
+.who_we_are h2,.why-join_us_in h2,.want_to_join h2{
+  font-size: 35px;
+  line-height: 45px;
+}
+
+

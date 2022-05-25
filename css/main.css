@@ -1293,28 +1293,32 @@ footer {
 }
 
 
-.center {
+/* New Changes of css */
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #555;
+  border-radius: 4%;
+ }
 
-  text-align: center;
-  }
-  .underline{
-     margin: auto;
-  width: 70px;
-  position: relative;
-  border-top: 2px solid #ffffff;
-  margin-top: 15px;
-}
-  
-.why-join_us{
+
+ /* Why Join Us CSS */
+ .why-join_us{
   padding: 70px 0;
   position: relative;
 }
 .why-join_us_in h2{
   font-size: 40px;
   line-height: 50px;
-  color: #292f35;
+  color: #292F35;
   text-align: center;
   font-weight: 600;
+}
+
+.why-join_us_in img{
+  border-radius: 20px;
+  margin-top: 100px;
 }
 .join_us_card{
   width: 80%;
@@ -1334,7 +1338,7 @@ cursor: pointer;
 .join_us_card h4{
   font-size: 24px;
     line-height: 34px;
-    color: #eb8621;
+    color: #EB8621;
     font-weight: 600;
     padding: 0px 0 14px;
 }
@@ -1344,35 +1348,19 @@ cursor: pointer;
   color: #A4A4A4;
   font-weight: 400;
 }
-.why-join_us_in img{
-  border-radius: 20px;
-  margin-top: 100px;
-}
-.join_yellow_left{
-  position: absolute;
-  left: 0;
-  bottom: 270px;
-  z-index: -1;
-}
-.join_yellow_left img{
-  width: 60%;
-}
-
-
 
 .accordion-container{
   position: relative;
   height: auto;
   margin: 10px auto;
 }
-
 .set{
   position: relative;
   width: 100%;
   margin: 0 auto;
   height: auto;
   box-shadow: 0 0 5px 3px rgb(106 93 209 / 20%);
-  background: #ffffff;
+  background: #FFFFFF;
   margin-bottom: 20px;
 border-radius: 6px;
 }
@@ -1393,27 +1381,24 @@ cursor: pointer;
   color: #B2B2B2;
   font-size: 16px;
   font-weight: 400;
-
 }
 .set > h4 p i{
   margin-left: 20px;
 }
-
 .set > h4.activeAccordion{
-  background: #ffffff;
-    /* background: -moz-linear-gradient(left, #4a2602 0%, #351a0014 100%);
-    background: -webkit-linear-gradient(left, #4a2602 0%,#351a0014 100%);
-    background: linear-gradient(to right, #4a2602 0%,#351a0014 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a2602', endColorstr='#351a00',GradientType=1 ); */
+  background: #FFFFFF;
+    /* background: -moz-linear-gradient(left, #4A2602 0%, #351a0014 100%);
+    background: -webkit-linear-gradient(left, #4A2602 0%,#351a0014 100%);
+    background: linear-gradient(to right, #4A2602 0%,#351a0014 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4A2602', endColorstr='#351A00',GradientType=1 ); */
     color: #414141;
 }
-
 .content{
-  background: #ffffff;
-  /* background: -moz-linear-gradient(left, #4a2602 0%, #351a0014 100%);
-  background: -webkit-linear-gradient(left, #4a2602 0%,#351a0014 100%);
-  background: linear-gradient(to right, #4a2602 0%,#351a0014 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a2602', endColorstr='#351a00',GradientType=1 ); */
+  background: #FFFFFF;
+  /* background: -moz-linear-gradient(left, #4A2602 0%, #351a0014 100%);
+  background: -webkit-linear-gradient(left, #4A2602 0%,#351a0014 100%);
+  background: linear-gradient(to right, #4A2602 0%,#351a0014 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4A2602', endColorstr='#351A00',GradientType=1 ); */
   display: none;
 }
 .content p{
@@ -1434,7 +1419,7 @@ cursor: pointer;
 .want_to_join h2{
   font-size: 40px;
     line-height: 50px;
-    color: #292f35;
+    color: #292F35;
     text-align: center;
     font-weight: 600;
 }
@@ -1454,7 +1439,7 @@ cursor: pointer;
   color: white;
   font-weight: 400;
   width: 130px;
-  background: #eb8621;
+  background: #EB8621;
   border-radius: 5px;
   padding: 8px;
   text-align: center;
@@ -1473,20 +1458,13 @@ cursor: pointer;
   padding: 40px 0;
 }
 .want_to_join h3 a{
-  color: #eb8621;
+  color: #EB8621;
   text-decoration: none;
-
 }
 
 
-img.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid #555;
-  border-radius: 5%;
 
 
- }
+
 
 
