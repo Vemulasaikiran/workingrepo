@@ -1374,13 +1374,14 @@ cursor: pointer;
   box-shadow: 0 0 5px 3px rgb(106 93 209 / 20%);
   background: #ffffff;
   margin-bottom: 20px;
-border-radius: 8px;
+border-radius: 6px;
 }
 .set > h4{
   padding: 20px 20px 20px 20px;
   color: #414141;
 cursor: pointer;
  font-size: 18px;
+ text-align: left;
  font-weight: 500;
   -webkit-transition:all 0.2s linear;
   -moz-transition:all 0.2s linear;
@@ -1417,6 +1418,7 @@ cursor: pointer;
 }
 .content p{
   padding: 0px 20px 20px 20px;
+  text-align: left;
   margin: 0;
   color: #666666;
 }
