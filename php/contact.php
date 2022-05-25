@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
     $mailTO ="info@cjsstechnologies.com";
 
     $headers = "From: ".$mailFrom;
-    $txt="You Have received an e-mail from".$name.".\n\n".$message;
+    $txt="You Have received an e-mail through Website from".$name.".\n\n".$message;
 
 
     mail($mailTO, $subject, $txt, $headers);
