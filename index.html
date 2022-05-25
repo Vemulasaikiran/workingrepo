@@ -281,7 +281,7 @@
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Watch Our Intro video</h2>
                 <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper orci.</p>
-                <a href="https://www.youtube.com/watch?v=IXoMDwh4Cq8" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-film-play"></i></a>
+                <!-- <a href="https://www.youtube.com/watch?v=IXoMDwh4Cq8" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-film-play"></i></a> -->
               </div>
           </div>
         </div>
@@ -573,9 +573,10 @@
               </div>
             </div>
             </div>
-        </div>
+        
         <h3>Please submit your CV at <a href="mailto:hr@cjsstechnologies.com"> hr@cjsstechnologies.com</a></h3>
       </div>
+    </div>
     </section>
     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
@@ -712,5 +713,24 @@
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
 
+    
+    <script>
+      $(document).ready(function () {
+        $(".set > h4").on("click", function () {
+          if ($(this).hasClass("activeAccordion")) {
+            $(this).removeClass("activeAccordion");
+            $(this).siblings(".content").slideUp(200);
+            $(".set > h4 i").removeClass("fa-minus").addClass("fa-plus");
+          } else {
+            $(".set > h4 i").removeClass("fa-minus").addClass("fa-plus");
+            $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+            $(".set > h4").removeClass("activeAccordion");
+            $(this).addClass("activeAccordion");
+            $(".content").slideUp(200);
+            $(this).siblings(".content").slideDown(200);
+          }
+        });
+      });
+    </script>
   </body>
 </html>

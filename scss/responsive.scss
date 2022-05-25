@@ -39,6 +39,12 @@
         font-size: 14px;
         line-height: 20px;
     }
+    .set > h4{
+        font-size: 14px;
+      }
+      .set > h4 p{
+        font-size: 10px;
+      }
 
 }
 
@@ -107,5 +113,19 @@
     .copyright{
         float: left;
     }
+    .set > h4{
+        padding: 15px;
+      }
+      .set > h4 p {
+        font-size: 8px;
+        line-height: 12px;
+      }
+      .set > h4 p i {
+        margin-left: 8px;
+      }
+      .set > h4 {
+        padding: 10px;
+        font-size: 12px;
+      }
 
 }

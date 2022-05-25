@@ -1196,6 +1196,12 @@ p{
 	text-decoration: none;
   
   }
+  .fa-plus:before{
+	content: "\f101";
+  }
+  .fa-minus:before{
+	content: "\f102";
+  }
 }
 
 
