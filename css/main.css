@@ -19,7 +19,7 @@
   3. HERO AREA 
   4. NAVBAR
   5. SERVICES SECTION
-  6. FEATURES SECTION
+  6. SERVICES SECTION
   7. VIDEO PROMO SECTION
   8. PORTFOLIO SECTION
   9. PRICING TABLE 
@@ -190,7 +190,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #61D2B4;
+  background-color: #eb8621;
 }
 
 .btn-lg {
@@ -404,7 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  /* background: url(../img/hero-area.jpg) fixed no-repeat; */
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -462,6 +462,14 @@ button:focus {
   color: #eb8621;
 }
 
+
+/* #hero-area .{
+  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+} */
 /* ==========================================================================
    4. Navbar Style
    ========================================================================== */
@@ -640,9 +648,9 @@ button:focus {
 }
 
 /* ==========================================================================
-  6. Features Section Style
+  6. Services Section Style
    ========================================================================== */
-#features {
+#services {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -650,15 +658,15 @@ button:focus {
   position: relative;
 }
 
-#features .section-title {
+#services .section-title {
   color: #fff;
 }
 
-#features .section-subtitle {
+#services .section-subtitle {
   color: #fff;
 }
 
-#features .icon {
+#services .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -668,11 +676,11 @@ button:focus {
   z-index: 1;
 }
 
-#features .box-item {
+#services .box-item {
   padding: 15px 0;
 }
 
-#features .box-item .icon {
+#services .box-item .icon {
   border: 1px solid #eb8621;
   text-align: center;
   float: left;
@@ -682,7 +690,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#services .box-item .icon i {
   color: #eb8621;
   font-size: 24px;
   line-height: 60px;
@@ -692,11 +700,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text {
+#services .box-item .text {
   padding-left: 80px;
 }
 
-#features .box-item .text h4 {
+#services .box-item .text h4 {
   color: #eb8621;
   font-weight: 700;
   font-size: 16px;
@@ -704,20 +712,20 @@ button:focus {
   line-height: 22px;
 }
 
-#features .box-item .text p {
+#services .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover .icon {
+#services .box-item:hover .icon {
   background: #eb8621;
 }
 
-#features .box-item:hover .icon i {
+#services .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features .show-box img {
+#services .show-box img {
   position: absolute;
   bottom: -120px;
 }
@@ -826,6 +834,9 @@ button:focus {
   border-radius: 4px;
   background: #fff;
   position: relative;
+  padding-bottom: 20px;
+  /* padding-left: 1px;
+  padding-right: 1px; */
 }
 
 .shot-item img {
@@ -1019,6 +1030,7 @@ button:focus {
    ========================================================================== */
 .single-team:hover .team-details {
   opacity: 1;
+  
 }
 
 .single-team {
@@ -1029,6 +1041,7 @@ button:focus {
   border-radius: 0px;
   background:#eb8621;
   overflow: hidden;
+  
 }
 
 .single-team img {
@@ -1289,3 +1302,187 @@ footer {
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+/* New Changes of css */
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 2%;
+ }
+
+
+ /* Why Join Us CSS */
+ .why-join_us{
+  padding: 70px 0;
+  position: relative;
+}
+.why-join_us_in h2{
+  font-size: 40px;
+  line-height: 50px;
+  color: #292F35;
+  text-align: center;
+  font-weight: 600;
+}
+
+.why-join_us_in img{
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.join_us_card{
+  width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: 0.5s all;
+    padding: 20px;
+cursor: pointer;
+
+}
+.join_us_card:hover{
+  transform: scale(1.1);
+  transition: 0.5s all;
+  box-shadow: 0 0 5px 1px rgb(0 0 0 / 20%);
+ border-radius: 10px;
+}
+.join_us_card h4{
+  font-size: 24px;
+    line-height: 34px;
+    color: #EB8621;
+    font-weight: 600;
+    padding: 0px 0 14px;
+    font-family: serif;
+}
+.join_us_card p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #A4A4A4;
+  font-weight: 400;
+}
+
+.accordion-container{
+  position: relative;
+  height: auto;
+  margin: 10px auto;
+}
+.set{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  box-shadow: 0 0 5px 3px rgb(106 93 209 / 20%);
+  background: #FFFFFF;
+  margin-bottom: 20px;
+border-radius: 6px;
+}
+.set > h4{
+  padding: 20px 20px 20px 20px;
+  color: #414141;
+cursor: pointer;
+ font-size: 18px;
+ text-align: left;
+ font-weight: 500;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+.set > h4 p{
+  float: right;
+  margin-top: 2px;
+  color: #B2B2B2;
+  font-size: 16px;
+  font-weight: 400;
+}
+.set > h4 p i{
+  margin-left: 20px;
+}
+.set > h4.activeAccordion{
+  background: #FFFFFF;
+    /* background: -moz-linear-gradient(left, #4A2602 0%, #351a0014 100%);
+    background: -webkit-linear-gradient(left, #4A2602 0%,#351a0014 100%);
+    background: linear-gradient(to right, #4A2602 0%,#351a0014 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4A2602', endColorstr='#351A00',GradientType=1 ); */
+    color: #414141;
+}
+.content{
+  background: #FFFFFF;
+  /* background: -moz-linear-gradient(left, #4A2602 0%, #351a0014 100%);
+  background: -webkit-linear-gradient(left, #4A2602 0%,#351a0014 100%);
+  background: linear-gradient(to right, #4A2602 0%,#351a0014 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4A2602', endColorstr='#351A00',GradientType=1 ); */
+  display: none;
+}
+.content p{
+  padding: 0px 20px 20px 20px;
+  text-align: left;
+  margin: 0;
+  color: #666666;
+}
+.fa-plus:before{
+  content: "\f101";
+}
+.fa-minus:before{
+  content: "\f102";
+}
+.want_to_join{
+  padding: 70px 0;
+}
+.want_to_join h2{
+  font-size: 40px;
+    line-height: 50px;
+    color: #292F35;
+    text-align: center;
+    font-weight: 600;
+}
+.want_to_join h6{
+  font-size: 16px;
+  line-height: 28px;
+  color: #A4A4A4;
+  font-weight: 400;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.want_to_join h5{
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  font-weight: 400;
+  width: 130px;
+  background: #EB8621;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+  margin: 30px 0;
+}
+.want_to_join h5.open_source{
+  background: #FEE2DB;
+  color: #FE6845;
+}
+.want_to_join h3{
+  font-size: 16px;
+  line-height: 28px;
+  color: #B2B2B2;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px 0;
+}
+.want_to_join h3 a{
+  color: #EB8621;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

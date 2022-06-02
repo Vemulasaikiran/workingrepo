@@ -37,7 +37,7 @@ $letter-spacing: 0px;
   3. HERO AREA 
   4. NAVBAR
   5. SERVICES SECTION
-  6. FEATURES SECTION
+  6. SERVICES SECTION
   7. VIDEO PROMO SECTION
   8. PORTFOLIO SECTION
   9. PRICING TABLE 
@@ -366,6 +366,7 @@ $letter-spacing: 0px;
 	  -o-transition: all 0.2s linear;
 	  transition: all 0.2s linear;
 	}
+	
 
 	/* ==========================================================================
    3. Hero Area
@@ -577,9 +578,9 @@ $letter-spacing: 0px;
    	}
 
  /* ==========================================================================
-  6. Features Section Style
+  6. services Section Style
    ========================================================================== */
-	#features{
+	#services{
 		background: url(../img/bg1.jpg) fixed no-repeat;
 		background-size: cover;
 		color: #fff;
@@ -710,6 +711,7 @@ $letter-spacing: 0px;
 	  .portfolio-item{
 		.shot-item{
 			margin: 0px;
+			padding-bottom: 25px;
 		}
 	  }
 	}
@@ -986,7 +988,7 @@ $letter-spacing: 0px;
    			color: #fff;
    		}
    		.google-plus a:hover{
-   			background: #dd4d42;
+   			background: #ffffff;
    			color: #fff;
    		}
    		.linkedin a:hover{

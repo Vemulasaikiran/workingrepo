@@ -30,6 +30,57 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .set > h4{
+    font-size: 14px;
+  }
+  .set > h4 p{
+    font-size: 10px;
+  }
+  .set > h4{
+    padding: 15px;
+  }
+  .set > h4 p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .set > h4 p i {
+    margin-left: 8px;
+  }
+  .set > h4 {
+    padding: 10px;
+    font-size: 12px;
+  }
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #555;
+    border-radius: 4%;
+   }
+   .ourclientsImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  .corousel{
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+  }
+  .corousel h5{
+    padding-left: 35%;
+    padding-top: -25%;
+    font-weight: 100;
+    font-size: 160%;
+    
+  }
+  
 }
 
 /* mobile or only mobile */
@@ -47,7 +98,7 @@
   #features .show-box img {
     display: none;
   }
-  #features .box-item .text h4 {
+  #z .box-item .text h4 {
     font-size: 14px;
   }
   .controls {
@@ -81,4 +132,88 @@
   .copyright {
     float: left;
   }
+  .set > h4{
+    font-size: 14px;
+  }
+  .set > h4 p{
+    font-size: 10px;
+  }
+  .set > h4{
+    padding: 15px;
+  }
+  .set > h4 p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .set > h4 p i {
+    margin-left: 8px;
+  }
+  .set > h4 {
+    padding: 10px;
+    font-size: 12px;
+  }
+  img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #555;
+    border-radius: 4%;
+   }
+   .corousel{
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+  }
+  .corousel h5{
+    padding-left: 35%;
+    padding-top: -25%;
+    font-weight: 100;
+    font-size: 160%;
+    
+  }
+  
 }
+.why-join_us {
+  padding: 30px 0 70px;
+}
+.why-join_us {
+  padding: 0px 0 70px;
+}
+.why-join_us_in h2,.want_to_join h2{
+  font-size: 35px;
+  line-height: 45px;
+}
+.who_we_are h2,.why-join_us_in h2,.want_to_join h2{
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.ourclientsImg{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.corousel{
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+.corousel h5{
+  padding-left: 35%;
+  padding-top: -25%;
+  font-weight: 100;
+  font-size: 160%;
+  
+}
+
+
